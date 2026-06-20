@@ -9,12 +9,12 @@ Features
 - Display all records in a formatted table
 - Sort by CGPA (ascending and descending) using a custom Selection Sort implementation
 - Validation & error handling:
-  > Student ID format (TP + 6 digits)
-  > Contact Number format (XXX-XXXXXXX) and uniqueness
-  > CGPA range (0.0–4.0)
-  > Year of Study bounded by each programme's actual duration
-  > Duplicate ID prevention
-  > Non-numeric input handling (no crashes or infinite loops on bad input)
+  * Student ID format (TP + 6 digits)
+  * Contact Number format (XXX-XXXXXXX) and uniqueness
+  * CGPA range (0.0–4.0)
+  * Year of Study bounded by each programme's actual duration
+  * Duplicate ID prevention
+  * Non-numeric input handling (no crashes or infinite loops on bad input)
 - Dynamic memory allocation (heap-allocated array) to safely support large datasets without stack overflow
 
 
